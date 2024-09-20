@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Teesta;
+  src: url(./LiChayanaTeestaUnicode.ttf);
+}
+
+body {
+  font-family: 'Teesta', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+nav ul {
+  border: 1px solid rgba(0, 0, 0, 0.092);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  border-left: 1px solid rgba(0, 0, 0, 0.092);
+}
+
+nav ul li:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.092);
+}
+
+nav a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.breaking-news {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.news-section {
+  margin: 25px 0;
+}
+
+.news-section h2 {
+  color: #000000;
+  border-bottom: 1px solid #9f9f9f;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.news-article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 40px);
+  min-width: 300px;
+}
+
+.news-article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.news-article h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.news-article p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.092);
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
